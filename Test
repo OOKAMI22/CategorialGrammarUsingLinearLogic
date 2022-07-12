@@ -1,0 +1,38 @@
+digraph {
+	1
+	1 -> 2
+	1 -> 3
+	1 -> 5
+	1 -> 7
+	2
+	2 -> 4
+	2 -> 6
+	2 -> 10
+	3
+	3 -> 6
+	3 -> 9
+	5
+	5 -> 10
+	7
+	4
+	4 -> 8
+	6
+	9
+	10
+}
+        elif type(node1.start) == str and type(node2.start) != str:
+            if type(node1.end) == str and type(node2.end) != str:
+                return True
+            elif type(node1.end) == str and type(node2.end) == str:
+                return True
+        elif type(node2.start) == str and type(node1.start) != str:
+            if type(node2.end) == str and type(node1.end) != str:
+                return True
+            elif type(node2.end) == str and type(node1.end) == str:
+                return True
+
+        elif type(node1.end) == str and type(node2.end) != str:
+            if type(node1.start) == str and type(node2.start) != str:
+                return True
+            elif type(node1.start) == str and type(node2.start) == str:
+                return True
