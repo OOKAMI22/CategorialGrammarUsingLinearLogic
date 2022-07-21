@@ -7,7 +7,7 @@
 
 ***Description***
 - main.py contient le main dont l'interface Qt
-- functions.py contient les fonctions appélée dans le main 
+- functions.py contient les fonctions appélées dans le main 
 - classes.py contient les classes utilisées
 - jeux2Mots.py contient les fonctions de liaison avec la base de connaissance JeuxDeMots
 - avant.png contient le graphe avant l'unification
